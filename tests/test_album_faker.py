@@ -42,7 +42,6 @@ class AlbumtestCaseFaker(unittest.TestCase):
                     canciones=[]
                 ))
             self.session.add(self.albumes[-1])
-
         '''Persiste los objetos
             En este setUp no se cierra la sesión para usar los albumes en las pruebas'''
         self.session.commit()
