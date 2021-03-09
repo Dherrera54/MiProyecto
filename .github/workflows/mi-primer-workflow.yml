@@ -1,9 +1,9 @@
-name: Mi primer workflow
+name: Hola mundo
 on:
   push:
     branches: [ master ]
-    jobs:
-      Mi-primer-job:
+jobs:
+  Mi-primer-job:
     name: Mi primer job
     runs-on: ubuntu-latest
     steps:
@@ -11,4 +11,4 @@ on:
       env:
         MI_VARIABLE: Hola mundo
       run: |
-        echo $MI_VARIABLE.
+        echo $MI_VARIABLE.cho $MI_VARIABLE.
