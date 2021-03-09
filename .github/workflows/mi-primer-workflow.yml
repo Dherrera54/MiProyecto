@@ -2,11 +2,6 @@ name: Mi primer workflow
 on:
   push:
     branches: [ master ]
-
-    name: Hola mundo
-    on:
-      push:
-        branches: [ master ]
     jobs:
       Mi-primer-job:
     name: Mi primer job
