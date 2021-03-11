@@ -48,7 +48,7 @@ jobs:
           coverage run -m unittest tests/test_album.py
           coverage report -m
     - name: Create release branch
-      id : release branch
+      id : release_branch
       run: |
           git branch release
           git checkout release
