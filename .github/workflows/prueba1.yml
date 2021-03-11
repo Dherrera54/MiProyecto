@@ -1,7 +1,7 @@
 name: Automerge
 on:
   push:
-   branches: [ master ]
+
   pull_request:
     types:
       - labeled
@@ -12,7 +12,7 @@ on:
       - ready_for_review
       - reopened
       - unlocked
-    branches: [ master ]
+
 jobs:
   job1:
     name: Pruebas
