@@ -5,7 +5,7 @@ from src.modelo.declarative_base import engine, Base, session
 
 
 class Coleccion():
-  ### prueba cambio 12
+  ### prueba cambio 13
     def __init__(self):
         Base.metadata.create_all(engine)
 
