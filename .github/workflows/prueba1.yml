@@ -47,6 +47,12 @@ jobs:
       run: |
           coverage run -m unittest tests/test_album.py
           coverage report -m
+    - name: Create release branch
+      id : release branch
+      run: |
+          git branch release
+          git checkout release
+          python -m unittest -v tests/test_album.py
   automerge:
     name: Automerge
     needs: job1
