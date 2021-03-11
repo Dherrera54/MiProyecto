@@ -3,18 +3,18 @@ on:
   push:
     branches:
       - '*'
-  pull_request:
-    types:
-      - labeled
-      - unlabeled
-      - synchronize
-      - opened
-      - edited
-      - ready_for_review
-      - reopened
-      - unlocked
-    branches:
-      - '*'
+  #pull_request:
+    #types:
+      #- labeled
+      #- unlabeled
+      #- synchronize
+      #- opened
+      #- edited
+      #- ready_for_review
+      #- reopened
+      #- unlocked
+    #branches:
+      #- '*'
 jobs:
   job1:
     name: Pruebas
