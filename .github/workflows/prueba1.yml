@@ -53,6 +53,10 @@ jobs:
           git branch release
           git checkout release
           python -m unittest -v tests/test_album.py
+    - name: Merge with master
+      run: |
+          git checkout main
+          git merge release
   automerge:
     name: Automerge
     needs: job1
