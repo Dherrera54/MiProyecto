@@ -11,6 +11,7 @@ on:
       - reopened
       - unlocked
     branches: [ master ]
+  push:
 jobs:
   job1:
     name: Pruebas
