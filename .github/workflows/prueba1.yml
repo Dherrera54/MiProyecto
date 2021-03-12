@@ -11,8 +11,7 @@ on:
       - reopened
       - unlocked
 
-    branches: [ master ]
-  push:
+    branches: [ develop ]
 
 jobs:
   job1:
