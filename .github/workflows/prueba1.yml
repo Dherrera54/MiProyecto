@@ -11,7 +11,7 @@ on:
       - reopened
       - unlocked
      branches:
-       - develop
+      - develop
 
 jobs:
   job1:
