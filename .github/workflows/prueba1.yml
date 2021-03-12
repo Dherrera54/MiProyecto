@@ -39,7 +39,7 @@ jobs:
       if: ${{ success() }}
       env:
 
-        MENSAJE_EXITO: Todas las pruebas fueron exitosas(develop)
+        MENSAJE_EXITO: Todas las pruebas fueron exitosas(feature4) Todas las pruebas fueron exitosas(develop)
 
       run: echo "::set-output name=respuesta::${MENSAJE_EXITO}"
     - name: Cálculo de cubrimiento
