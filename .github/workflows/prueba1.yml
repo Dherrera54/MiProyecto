@@ -11,8 +11,6 @@ on:
       - reopened
       - unlocked
 
-    branches: [ develop ]
-
 jobs:
   job1:
     name: Pruebas
