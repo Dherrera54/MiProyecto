@@ -7,7 +7,7 @@ from src.modelo.declarative_base import engine, Base, session
 class Coleccion():
 
 
-  ### prueba cambio 50
+  ### prueba cambio 51
 
 
     def __init__(self):
