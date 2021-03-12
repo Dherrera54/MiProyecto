@@ -10,6 +10,8 @@ on:
       - ready_for_review
       - reopened
       - unlocked
+     branches:
+       - develop
 
 jobs:
   job1:
