@@ -25,7 +25,9 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         branch: 'release2'
-      uses: actions/checkout@v2
+    - name: cambio a rama release2
+      run: |
+        git checkout release2
     - name: Correr pruebas
       id: correr-pruebas
       run: python -m unittest -v tests/test_album.py
