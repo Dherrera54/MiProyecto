@@ -24,7 +24,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        branch: 'release'
+        branch: 'release2'
     - name: Correr pruebas
       id: correr-pruebas
       run: python -m unittest -v tests/test_album.py
