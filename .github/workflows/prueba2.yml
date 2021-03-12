@@ -23,4 +23,5 @@ jobs:
       run: |
         git branch release
         git checkout release
+        git push --set-upstream origin release
 
