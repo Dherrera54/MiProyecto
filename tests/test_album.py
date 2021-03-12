@@ -57,6 +57,7 @@ class AlbumTestCase(unittest.TestCase):
         '''Prueba la adición de un álbum'''
         resultado = self.coleccion.agregar_album(titulo="Nada personal", anio=1985, descripcion="No tiene",
                                                  medio=Medio.CASETE)
+        print("feature4")
         self.assertEqual(resultado, True)
 
     def test_agregar_album_repetido(self):
