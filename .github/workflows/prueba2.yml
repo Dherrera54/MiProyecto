@@ -43,3 +43,15 @@ jobs:
       run: |
         coverage run -m unittest tests/test_album.py
         coverage report -m
+
+  merge-branch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+
+      - name: Merge staging -> main
+        uses: devmasx/merge-branch@v1.3.1
+        with:
+          type: now
+          target_branch: main
+          github_token: ${{ secrets.GITHUB_TOKEN }}
